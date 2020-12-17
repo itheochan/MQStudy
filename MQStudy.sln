@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MQStudy.Web", "MQStudy.Web\MQStudy.Web.csproj", "{4B00C829-26E7-4317-BBD5-F05A4B1E211B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MQStudy.Web", "MQStudy.Web\MQStudy.Web.csproj", "{4B00C829-26E7-4317-BBD5-F05A4B1E211B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MQStudy.Models", "MQStudy.Models\MQStudy.Models.csproj", "{5997952B-5F8D-451F-A4C5-D16C61378BCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MQStudy.Models", "MQStudy.Models\MQStudy.Models.csproj", "{5997952B-5F8D-451F-A4C5-D16C61378BCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MQStudy.RMQ", "MQStudy.RMQ\MQStudy.RMQ.csproj", "{ED588FF4-F163-4610-AFE1-7A2BC54DB203}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MQStudy.RMQ", "MQStudy.RMQ\MQStudy.RMQ.csproj", "{ED588FF4-F163-4610-AFE1-7A2BC54DB203}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MQStudy.Interface", "MQStudy.Interface\MQStudy.Interface.csproj", "{F3731464-F9E9-4B0F-A073-804A5951D5DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MQStudy.Worker", "MQStudy.Worker\MQStudy.Worker.csproj", "{B6BD0B82-DC27-4C1E-9575-B6D22BF25B36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{ED588FF4-F163-4610-AFE1-7A2BC54DB203}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED588FF4-F163-4610-AFE1-7A2BC54DB203}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED588FF4-F163-4610-AFE1-7A2BC54DB203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3731464-F9E9-4B0F-A073-804A5951D5DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3731464-F9E9-4B0F-A073-804A5951D5DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3731464-F9E9-4B0F-A073-804A5951D5DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3731464-F9E9-4B0F-A073-804A5951D5DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6BD0B82-DC27-4C1E-9575-B6D22BF25B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6BD0B82-DC27-4C1E-9575-B6D22BF25B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6BD0B82-DC27-4C1E-9575-B6D22BF25B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6BD0B82-DC27-4C1E-9575-B6D22BF25B36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
